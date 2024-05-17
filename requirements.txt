@@ -1,0 +1,9 @@
+pandas
+numpy
+jupyter
+matplotlib
+mplfinance
+Riskfolio-Lib
+norgatedata
+zipline-reloaded
+
