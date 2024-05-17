@@ -6,4 +6,6 @@ mplfinance
 Riskfolio-Lib
 norgatedata
 zipline-reloaded
+zipline-norgatedata
+yfinance
 
