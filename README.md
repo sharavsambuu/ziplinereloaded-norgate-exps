@@ -11,6 +11,7 @@
 # Sample bundle cleaning
 
     zipline bundles
+    zipline ingest -b quandl
     zipline clean -b quandl --before 2024-5-18
 
 
