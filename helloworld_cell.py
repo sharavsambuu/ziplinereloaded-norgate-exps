@@ -45,9 +45,10 @@ result = run_algorithm(
 
 
 #%%
-
+list(result.keys())
 
 #%%
+result['returns'].cumsum().plot()
 
 
 #%%
