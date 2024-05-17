@@ -9,10 +9,10 @@ from zipline.api import order_target, record, symbol
 
 def initialize(context):
     context.i = 0 
-    context.asset = symbol("GOOG")
+    context.asset = symbol("MSFT")
 
 
-def  handle_data(context, data):
+def handle_data(context, data):
     context.i += 1
     if context.i<300:
         return

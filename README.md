@@ -17,6 +17,9 @@
 
 # References
 
+    Run Zipline in your IDE
+    https://mw96.medium.com/algorithmic-trading-simulations-part-ii-6f138a146b93
+
     Zipline-Reloaded forum link
     https://exchange.ml4trading.io/
 
