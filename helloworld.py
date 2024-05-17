@@ -1,8 +1,15 @@
+import warnings
+warnings.filterwarnings("ignore")
+def action_with_warnings():
+    warnings.warn("should not appear")
+with warnings.catch_warnings(record=True):
+    action_with_warnings()
+
 from zipline.api import order_target, record, symbol
 
 def initialize(context):
     context.i = 0 
-    context.asset = symbol("AAPL")
+    context.asset = symbol("GOOG")
 
 
 def  handle_data(context, data):

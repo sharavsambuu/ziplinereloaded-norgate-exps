@@ -17,6 +17,9 @@
 
 # References
 
+    Zipline-Reloaded forum link
+    https://exchange.ml4trading.io/
+
     Zipline-Norgatedata
     https://pypi.org/project/zipline-norgatedata/
 
