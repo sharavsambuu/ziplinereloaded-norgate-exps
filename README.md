@@ -18,6 +18,9 @@
 
 # References
 
+    Zipline Bundles
+    https://github.com/hhatefi/zipline_bundles
+
     Run Zipline in your IDE
     https://mw96.medium.com/algorithmic-trading-simulations-part-ii-6f138a146b93
 
