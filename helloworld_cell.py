@@ -1,7 +1,7 @@
 #%%
 #zipline --start=2011-1-1 --end=2013-1-1 --no-benchmark
 
-from   zipline.api       import order, record, symbol, set_benchmark
+from   zipline.api       import order, record, symbol, set_benchmark, history
 from   zipline           import run_algorithm
 import pandas            as pd
 import numpy             as np
@@ -10,7 +10,9 @@ import matplotlib.pyplot as plt
 
 #%%
 def initialize(context):
+    history(context.lookback, frequency="1d", field='price')
     pass
+
 
 def handle_data(context, data):
     order(symbol('AAPL'), 10)
