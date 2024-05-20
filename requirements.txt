@@ -8,3 +8,4 @@ norgatedata
 zipline-reloaded
 zipline-norgatedata
 yfinance
+quantstats
